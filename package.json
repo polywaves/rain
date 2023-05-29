@@ -1,0 +1,21 @@
+{
+  "name": "Rain",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --watch-poll --mode=development",
+    "build": "cross-env NODE_ENV=production webpack --mode=production"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "gsap": "^3.11.5",
+    "howler": "^2.2.3",
+    "html-webpack-plugin": "^4.0.3",
+    "three": "^0.152.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
